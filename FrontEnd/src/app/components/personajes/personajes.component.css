@@ -1,0 +1,43 @@
+.principal {
+    background-color: #d2c7c7;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d2c7c7;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex-item {
+    background: #8d726d;
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: auto;
+}
+
+.flex-item img {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.button-info {
+    background-color: #f0f5f5;
+    color: #8d726d;
+    font-size: 12px;
+    height: 30px;
+    width: 25%;
+    padding: 5;
+    margin: 0 auto;
+    float: left;
+    border-radius: 6px;
+    cursor: pointer;
+}

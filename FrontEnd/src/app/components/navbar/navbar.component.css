@@ -1,0 +1,34 @@
+.mat-toolbar{
+    background-color: cornflowerblue;
+    color: white;
+  }
+  .mat-button{
+     color: white;
+  }
+
+  .menu-button {
+   margin-right: 24px;
+   min-width: 0;
+   padding: 0;
+   line-height: normal;
+}
+
+
+.at-form-field {
+   background-color: cornflowerblue;
+   color: white;
+   height: 20px;
+}
+.example-container {
+   width: 400px;
+   height: 200px;
+   margin: 12px;
+   border: 1px solid #555;
+ }
+ 
+ mat-drawer-content {
+   padding: 12px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }

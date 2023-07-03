@@ -1,0 +1,68 @@
+.principal {
+    background-color: #d2c7c7;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d2c7c7;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.textBusqueda {
+    width: 50% !important;
+    background: white !important;
+    color: black;
+    border-radius: 8px !important;
+    height: 39px !important;
+    margin-top: 10px !important;
+}
+
+.flex-item {
+    background: #8d726d;
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    padding: auto;
+}
+
+
+.flex-item img {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.mat-card-content {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 4 6 1;
+    margin: 0 auto;
+}
+
+.textoTitulo {
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.texto {
+    font-family: cursive;
+    font-size: 12px;
+    line-height: 200%;
+    min-height: 70px;
+    max-height: 70px;
+}

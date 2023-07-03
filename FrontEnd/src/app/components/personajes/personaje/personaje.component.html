@@ -1,0 +1,25 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{data[0].name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{data[0].img}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+        <p>Descrición del personaje:</p>
+        <p>
+            {{data[0].description}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <div>
+            <p>Comic´s del personaje: </p>
+        </div>
+    </mat-card-actions>
+    <mat-card-actions>
+        <div>
+            <div *ngFor="let comic of data[0].comics.items">
+                <P>{{comic.name}}</P>
+            </div>
+        </div>
+    </mat-card-actions>
+</mat-card>

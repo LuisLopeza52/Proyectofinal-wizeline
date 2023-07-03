@@ -1,0 +1,23 @@
+<div class="principal">
+    <div class="flex-container">
+        <div class="row">
+            <div>
+                <input type="text" class="textBusqueda" name="filterComics" placeholder="Buscar..."
+                [(ngModel)]="filterComics">
+            </div>
+        </div>
+        <div *ngFor="let comics of allComics | filter:filterComics">
+            <mat-card class="flex-item">
+                <mat-card-title class="textoTitulo">
+                    {{comics.title}}
+                </mat-card-title>
+                <img mat-card-image src="{{comics.thumbnail.path}}.{{comics.thumbnail.extension}}"
+                    alt="{{comics.title}}">
+                <mat-card-content class="texto">
+                    Description:<br>
+                    {{comics.series.name}}
+                  </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

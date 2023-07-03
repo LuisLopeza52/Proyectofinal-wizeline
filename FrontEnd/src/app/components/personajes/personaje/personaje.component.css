@@ -1,0 +1,14 @@
+.example-card {
+    background: black;
+    color: white;
+}
+.card-img {
+    width: 100%;
+    background: black;
+}
+
+img {
+    min-height: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+}
